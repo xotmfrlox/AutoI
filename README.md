@@ -34,22 +34,17 @@
 파이썬으로 배우는 알고리즘 트레이딩과 키움 OPEN API+ 설명서 참고
 
 ## 개발 일지
-### Day1
+#### - Day1
 자동 로그인, QT Designer로 윈도우창 생성 구현 완료
-
-### - Day2
+#### - Day2
 주문 기능 추가 구현 완료
-
-### - Day3
+#### - Day3
 주식 종목 현황 출력과 잔고확인 기능 구현 완료
-
-### - Day4
+#### - Day4
 작성된 매수, 매도 리스트를 자동 주문 구현 완료
-
-### - Day5
+#### - Day5
 급등주 포착 알고리즘 구현 예정
-
-### - Day6
+#### - Day6
 기업 실적 데이터 바탕, 배당률 기반 투자 알고리즘 개발 예정
 
 ## 상세 설명
@@ -58,7 +53,11 @@
 [참고사진]
 ![image](https://user-images.githubusercontent.com/53934772/208352706-c9650698-f02b-4a07-b5dd-aca67253bbb9.png)
 
-### Day5
+### - Day5
 구현중
 급등주 포착 알고리즘 실행시 과도한 트래픽 발생시 Kiwoom 증권에서 막는 현상 발생
 ![image](https://user-images.githubusercontent.com/53934772/208564669-cd53df27-e520-43be-8a3d-4db5849ce332.png)
+
+### - Day6
+min_ratio = min(previous_dividend_to_treasury.values())
+ValueError: min() arg is an empty sequence
