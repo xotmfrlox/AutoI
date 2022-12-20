@@ -53,9 +53,12 @@
 기업 실적 데이터 바탕, 배당률 기반 투자 알고리즘 개발 예정
 
 ## 상세 설명
-2022년 12월 19일 기준 Day4까지 구현 완료
+### Day 1~4구
+2022년 12월 19일 기준 구현 완료
 [참고사진]
 ![image](https://user-images.githubusercontent.com/53934772/208352706-c9650698-f02b-4a07-b5dd-aca67253bbb9.png)
 
-
-
+### Day5
+구현중
+급등주 포착 알고리즘 실행시 과도한 트래픽 발생시 Kiwoom 증권에서 막는 현상 발생
+![image](https://user-images.githubusercontent.com/53934772/208564669-cd53df27-e520-43be-8a3d-4db5849ce332.png)
