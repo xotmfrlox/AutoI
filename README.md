@@ -118,7 +118,7 @@ ValueError: could not convert string to float: '15,242,370'
 '15,242,370'를 float형으로 바꾸지 못하는 에러
 “,”가 빠지면 str형식을 float 형식으로 잘 변경된다.
 
-**- 해결 **
+**- 해결**
 기존 소스코드
 replace 메서드를 이용해서 ,를 빼고 float형식으로 형변환을 실행한다.
 estimated_dividend_to_treasury = float(estimated_dividend_yield) / float(current_3year_treasury)
