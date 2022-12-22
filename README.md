@@ -61,7 +61,7 @@ Failed to create a virtual environment
 pip install virtualenv
 python -m venv venv
 
-<span style="color:red">**- 에러**</
+**- 에러**
 Could not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Ma
 x retries exceeded with url: /simple/pip/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping        
 **- 해결**
