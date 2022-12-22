@@ -53,13 +53,15 @@
 ### [파이썬 구축]
 **- 에러**
 Failed to create a virtual environment
+
 **- 원인**
 파이썬 및 파이참 첫 설치 후 가상 머신이 설치되어있지 않아서 발생하는 에러
-**- 해결 완료**
+
+**- 해결 **
 pip install virtualenv
 python -m venv venv
 
-**- 에러**
+<span style="color:red">**- 에러**</
 Could not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Ma
 x retries exceeded with url: /simple/pip/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping        
 **- 해결**
