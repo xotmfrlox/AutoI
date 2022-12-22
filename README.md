@@ -83,7 +83,7 @@ Invalid Python SDK
 **- 해결**
 
 별도의 조치 없이 OK를 선택하니 작동됨
-
+* * *
 **- 에러**
 
 Unresolved reference 'print'
