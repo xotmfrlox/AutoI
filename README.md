@@ -51,7 +51,7 @@
 
 ## Day 1~4
 ### [파이썬 구축]
-**- 에러**
+> **- 에러**
 Failed to create a virtual environment
 
 **- 원인**
@@ -61,7 +61,7 @@ Failed to create a virtual environment
 pip install virtualenv
 python -m venv venv
 
-**- 에러**
+> **- 에러**
 Could not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Ma
 x retries exceeded with url: /simple/pip/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping        
 
@@ -76,7 +76,7 @@ Invalid Python SDK
 **- 해결**
 별도의 조치 없이 OK를 선택하니 작동됨
 
-**- 에러**
+> **- 에러**
 Unresolved reference 'print'
 
 **- 해결**
@@ -84,7 +84,7 @@ Invalidate and Restart 함
 
 
 ### [Kiwoom API 사용]
-**- 에러**
+> **- 에러**
 SignKorea 인증서 부재 확인
 이미 SignKorea 인증서를 발급 받은 사실이 있으나 현재 이용하는 PC내에 인증서가 존재하지 않거나 검색에 실패함.
 
@@ -92,13 +92,13 @@ SignKorea 인증서 부재 확인
 SignKorea에서 인증서 연장 후 키움증권에서 다시 인증서 발급함.
 
 ### [개발 에러]
-**- 에러**
+> **- 에러**
 OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
 
 **- 해결**
 verify=False를 추가한다.
 
-**- 에러(warning)**
+> **- 에러(warning)**
 InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
 InsecureRequestWarning)
 
@@ -106,7 +106,7 @@ InsecureRequestWarning)
 warning이라 무시해도 되지만 신경 쓰이면 아래 문구를 추가해준다.
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-**- 에러**
+> **- 에러**
 ValueError: could not convert string to float: '15,242,370'
 
 **- 원인**
