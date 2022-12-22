@@ -72,7 +72,7 @@ x retries exceeded with url: /simple/pip/ (Caused by SSLError("Can't connect to 
 환경변수 추가
 C:\seulgi\it\language\python\Python\Anaconda3\Library\mingw-w64\bin
 C:\seulgi\it\language\python\Python\Anaconda3\Library\bin
-
+* * *
 > **- 에러**
 
 Invalid Python SDK
@@ -85,7 +85,7 @@ Unresolved reference 'print'
 
 **- 해결**
 Invalidate and Restart 함
-
+* * *
 
 
 ### [Kiwoom API 사용]
@@ -96,7 +96,7 @@ SignKorea 인증서 부재 확인
 
 **- 에러해결**
 SignKorea에서 인증서 연장 후 키움증권에서 다시 인증서 발급함.
-
+* * *
 ### [개발 에러]
 > **- 에러**
 
@@ -104,7 +104,7 @@ OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certific
 
 **- 해결**
 verify=False를 추가한다.
-
+* * *
 > **- 에러(warning)**
 
 InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
@@ -113,7 +113,7 @@ InsecureRequestWarning)
 **- 해결**
 warning이라 무시해도 되지만 신경 쓰이면 아래 문구를 추가해준다.
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
-
+* * *
 > **- 에러**
 
 ValueError: could not convert string to float: '15,242,370'
@@ -121,6 +121,8 @@ ValueError: could not convert string to float: '15,242,370'
 **- 원인**
 '15,242,370'를 float형으로 바꾸지 못하는 에러
 “,”가 빠지면 str형식을 float 형식으로 잘 변경된다.
+
+**- 해결 **
 기존 소스코드
 replace 메서드를 이용해서 ,를 빼고 float형식으로 형변환을 실행한다.
 estimated_dividend_to_treasury = float(estimated_dividend_yield) / float(current_3year_treasury)
@@ -133,7 +135,7 @@ estimated_dividend_yield = get_estimated_dividend_yield("058470")
     print("current_3year_treasury : " + current_3year_treasury)
     estimated_dividend_to_treasury = float(re_estimated_dividend_yield) / float(current_3year_treasury)
     print(estimated_dividend_to_treasury)
-
+* * *
 **2022년 12월 19일 기준 구현 완료**
 [참고사진]
 ![image](https://user-images.githubusercontent.com/53934772/208352706-c9650698-f02b-4a07-b5dd-aca67253bbb9.png)
