@@ -110,6 +110,7 @@ SignKorea에서 인증서 연장 후 키움증권에서 다시 인증서 발급�
 OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
 
 **- 해결**
+
 verify=False를 추가한다.
 * * *
 **- 에러(warning)**
