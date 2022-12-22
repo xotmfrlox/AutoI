@@ -57,7 +57,7 @@ Failed to create a virtual environment
 **- 원인**
 파이썬 및 파이참 첫 설치 후 가상 머신이 설치되어있지 않아서 발생하는 에러
 
-<span style="color:red">**- 해결 **</span>
+<span style="color:red">- 해결</span>
 pip install virtualenv
 python -m venv venv
 
