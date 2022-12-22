@@ -61,7 +61,7 @@ Failed to create a virtual environment
 **- 해결**
 pip install virtualenv
 python -m venv venv
-
+* * *
 
 > **- 에러**
 
